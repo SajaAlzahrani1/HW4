@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Saja's Personal Website</title>
+
+</head>
+
+<body id="top">
+
+    <header>
+        <h1>Saja's Personal Website</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <article>
+            <h3>▶ Mueen - Medication Tracker App</h3>
+            <p><strong>Course:</strong> System Analysis and Design - <em><time datetime="2025-04">April
+                        2025</time></em>
+            </p>
+
+            <p id="project-desc1">
+                This project focuses on a comprehensive system designed to track medication doses.
+                It includes a <strong>Software Requirements Specification (SRS)</strong>, a <strong>Software Design
+                    Document (SDD)</strong>,
+                and a <strong>UI prototype</strong>. The system features a user-friendly interface that sends timely
+                medication reminders to ensure
+                patient adherence. Additionally, it provides a connected interface for doctors to monitor adherence and
+                receive real-time updates on their patients' health status.
+
+            </p>
+            <button onclick="toggleDescription('project-desc1')">Description</button>
+
+
+            <figure>
+                <img src="assets/image/Mueen.png" alt="Mueen Application Interface" width="825" height="300">
+                <figcaption>Figure 1: Interface design of the Mueen application.</figcaption>
+            </figure>
+
+            <p>
+                <strong>Project Documentation:</strong>
+                <a href="files/CSC343 Final Report.pdf" target="_blank">View Project PDF</a>
+            </p>
+
+        </article>
+
+        <hr class="custom-line">
+        <article>
+            <h3>▶ Ice Cream Ordering App</h3>
+            <p><strong>Course:</strong> Fundamentals of Flutter Mobile App Development - <em><time
+                        datetime="2025-07">July 2025</time></em></p>
+            <p id="project-desc2">
+                This project was developed as part of a short fundamentals course in mobile application development.
+                The app was built using <strong>Flutter</strong>,with <strong>Dart</strong> as the programming
+                language. It is a simple ice cream ordering application that focuses on basic UI design, navigation,
+                and
+                user interaction.
+            </p>
+            <button onclick="toggleDescription('project-desc2')">Description</button>
+
+            <figure>
+                <img src="assets/image/IceCream_App.png" alt="Ice Cream Ordering App Interface" width="350"
+                    height="300">
+                <figcaption>Figure 2: Interface design of the Ice Cream Ordering App.</figcaption>
+            </figure>
+            <p>
+                <strong>Project Source Code:</strong>
+                <a href="https://github.com/SajaAlzahrani1/IceCream_App_Flutter/tree/main" target="_blank">View on
+                    GitHub</a>
+            </p>
+        </article>
+
+        <p><a href="#top">Back to Top</a></p>
+    </main>
+
+    <footer id="main-footer">
+        <p>&copy; 2026 Saja. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
